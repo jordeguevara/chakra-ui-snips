@@ -1,61 +1,61 @@
 {
   "Import Aspect Ratio": {
-    "prefix": "i-aspect-rato",
+    "prefix": "i-ar",
     "body": "import { AspectRatio } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Aspect Ratio"
   },
   "Import Box": {
-    "prefix": "i-box",
+    "prefix": "i-b",
     "body": "import { Box } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Box"
   },
   "Import Center": {
-    "prefix": "i-center",
+    "prefix": "i-cen",
     "body": "import { Center } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Center"
   },
   "Import Container": {
-    "prefix": "i-container",
+    "prefix": "i-con",
     "body": "import { Container } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Container"
   },
   "Import Flex": {
-    "prefix": "i-flex",
+    "prefix": "i-f",
     "body": "import { Flex } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Flex"
   },
   "Import Grid": {
-    "prefix": "i-grid",
+    "prefix": "i-g",
     "body": "import { Grid } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Grid"
   },
   "Import SimpleGrid": {
-    "prefix": "i-simple-grid",
+    "prefix": "i-sg",
     "body": "import { SimpleGrid } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import SimpleGrid"
   },
   "Import Stack": {
-    "prefix": "i-stack",
+    "prefix": "i-s",
     "body": "import { Stack } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Stack"
   },
   "Import HStack": {
-    "prefix": "i-h-stack",
+    "prefix": "i-hs",
     "body": "import { HStack } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import HStack"
   },
   "Import VStack": {
-    "prefix": "i-v-stack",
+    "prefix": "i-vs",
     "body": "import { VStack } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import VStack"
   },
   "Import Wrap": {
-    "prefix": "i-wrap",
+    "prefix": "i-wr",
     "body": "import { Wrap } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Wrap"
   },
   "Import Text": {
-    "prefix": "i-text",
+    "prefix": "i-t",
     "body": "import { Text } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Text"
   },
@@ -70,17 +70,17 @@
     "description": "🪄 Chakra UI: Import Highlight"
   },
   "Import Avatar": {
-    "prefix": "i-avatar",
+    "prefix": "i-av",
     "body": "import { Avatar } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Avatar"
   },
   "Import AvatarBadge": {
-    "prefix": "i-avatar-badge",
+    "prefix": "i-avb",
     "body": "import { AvatarBadge } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import AvatarBadge"
   },
   "Import AvatarGroup": {
-    "prefix": "i-avatar-group",
+    "prefix": "i-avg",
     "body": "import { AvatarGroup } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import AvatarGroup"
   },
@@ -90,7 +90,7 @@
     "description": "🪄 Chakra UI: Import Icon"
   },
   "Import Image": {
-    "prefix": "i-image",
+    "prefix": "i-img",
     "body": "import { Image } from '@chakra-ui/react'",
     "description": "🪄 Chakra UI: Import Image"
   },
@@ -427,7 +427,7 @@
     "description": "🪄 Chakra UI: Container"
   },
   "chakra-layout-flex": {
-    "prefix": "chakra-flex",
+    "prefix": "ch-f",
     "body": [
       "<Flex>",
       "\t$1",
@@ -436,7 +436,7 @@
     "description": "🪄 Chakra UI: Flex"
   },
   "chakra-layout-grid": {
-    "prefix": "chakra-grid",
+    "prefix": "ch-g",
     "body": [
       "<Grid templateColumns='$1' gap={$2}>",
       "\t$3",
@@ -454,7 +454,7 @@
     "description": "🪄 Chakra UI: Simple grid"
   },
   "chakra-layout-stack": {
-    "prefix": "chakra-stack",
+    "prefix": "ch-s",
     "body": [
       "<Stack direction={$1} spacing={$2}>",
       "\t$3",
@@ -463,7 +463,7 @@
     "description": "🪄 Chakra UI: Stack"
   },
   "chakra-layout-hstack": {
-    "prefix": "chakra-hstack",
+    "prefix": "c-hs",
     "body": [
       "<HStack spacing={$1}>",
       "\t$2",
@@ -472,7 +472,7 @@
     "description": "🪄 Chakra UI: HStack"
   },
   "chakra-layout-vstack": {
-    "prefix": "chakra-vstack",
+    "prefix": "c-vs",
     "body": [
       "<VStack spacing={$1}>",
       "\t$2",
@@ -481,7 +481,7 @@
     "description": "🪄 Chakra UI: VStack"
   },
   "chakra-layout-wrap": {
-    "prefix": "chakra-wrap",
+    "prefix": "c-w",
     "body": [
       "<Wrap>",
       "\t$1",
@@ -491,8 +491,8 @@
   },
   "chakra-forms-button": {
     "prefix": [
-      "chakra-btn",
-      "chakra-button"
+      "ch-btn",
+      "chb"
     ],
     "body": [
       "<Button variant='$1'>",
@@ -502,7 +502,7 @@
     "description": "🪄 Chakra UI: Button"
   },
   "chakra-forms-checkbox": {
-    "prefix": "chakra-checkbox",
+    "prefix": "ch-ch",
     "body": [
       "<Checkbox size='$1'>",
       "\t$2",
@@ -511,7 +511,7 @@
     "description": "🪄 Chakra UI: Checkbox"
   },
   "chakra-forms-checkbox-group": {
-    "prefix": "chakra-checkbox-group",
+    "prefix": "ch-chg",
     "body": [
       "<CheckboxGroup defaultValue={[$1]}>",
       "\t$2",
@@ -544,7 +544,7 @@
     "description": "🪄 Chakra UI: Editable textarea"
   },
   "chakra-forms-form-control": {
-    "prefix": "chakra-form-control",
+    "prefix": "ch-fc",
     "body": [
       "<FormControl>",
       "\t$1",
@@ -709,12 +709,12 @@
     "description": "🪄 Chakra UI: Slider thumb"
   },
   "chakra-switch": {
-    "prefix": "chakra-switch",
+    "prefix": "ch-sw",
     "body": "<Switch size={$1} id={'$2'} />",
     "description": "🪄 Chakra UI: Switch"
   },
   "chakra-textarea": {
-    "prefix": "chakra-textarea",
+    "prefix": "ch-ta",
     "body": "<Textarea placeholder='$1' />",
     "description": "🪄 Chakra UI: Textarea"
   },
@@ -749,22 +749,22 @@
     "description": "🪄 Chakra UI: Avatar"
   },
   "chakra-icon": {
-    "prefix": "chakra-icon",
+    "prefix": "ch-ic",
     "body": "<Icon as={$1} w={$2} h={$3} color='$4' />",
     "description": "🪄 Chakra UI: Icon"
   },
   "chakra-image": {
-    "prefix": "chakra-image",
+    "prefix": "ch-i",
     "body": "<Image src={$1} alt='$2' />",
     "description": "🪄 Chakra UI: Image"
   },
   "Text": {
-    "prefix": "chakra-text",
+    "prefix": "ch-t",
     "body": "<Text variant='$1'>$2</Text>",
     "description": "🪄 Chakra UI: Text"
   },
   "Heading": {
-    "prefix": "chakra-heading",
+    "prefix": "ch-h",
     "body": "<Heading as='$1' size='$2' noOfLines={$3}>$4</Heading>",
     "description": "🪄 Chakra UI: Heading"
   },
